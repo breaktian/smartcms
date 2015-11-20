@@ -13,6 +13,7 @@ return array(
     'SHOW_PAGE_TRACE' =>false,
     
     
+    
     //修改定界符
     'TMPL_L_DELIM'=>'<{',
     'TMPL_R_DELIM'=>'}>',
@@ -29,7 +30,7 @@ return array(
      'DB_PREFIX'=>'think_',
      */
     //PDO专用定义
-    'DB_TYPE'=>'pdo',
+    'DB_TYPE'=>'mysql',
     'DB_USER'=>'root',
     'DB_PWD'=>'',
     'DB_PREFIX'=>'smart_',

@@ -2,7 +2,7 @@
 // +----------------------------------------------------------------------
 // | ThinkPHP [ WE CAN DO IT JUST THINK IT ]
 // +----------------------------------------------------------------------
-// | Copyright (c) 2006-2013 http://thinkphp.cn All rights reserved.
+// | Copyright (c) 2006-2014 http://thinkphp.cn All rights reserved.
 // +----------------------------------------------------------------------
 // | Licensed ( http://www.apache.org/licenses/LICENSE-2.0 )
 // +----------------------------------------------------------------------
@@ -10,7 +10,6 @@
 // +----------------------------------------------------------------------
 namespace Think\Template\TagLib;
 use Think\Template\TagLib;
-defined('THINK_PATH') or exit();
 /**
  * Html标签库驱动
  */
@@ -60,6 +59,9 @@ class Html extends TagLib{
                 break;
             case 'KINDEDITOR':
                 $parseStr   =  '<script type="text/javascript" src="__ROOT__/Public/Js/KindEditor/kindeditor.js"></script><script type="text/javascript"> KE.show({ id : \''.$id.'\'  ,urlType : "absolute"});</script><textarea id="'.$id.'" style="'.$style.'" name="'.$name.'" >'.$content.'</textarea>';
+                break;
+            case 'UEDITOR':
+                $parseStr   =  "\n".'<script type="text/javascript" charset="utf-8" src="__ROOT__/Public/UEditor/ueditor.config.js"></script>'."\n".'<script type="text/javascript" charset="utf-8" src="__ROOT__/Public/UEditor/ueditor.all.js"></script>'."\n".'<script type="text/plain" id="'.$id.'" name="'.$name.'" style="'.$style.'">'.$content.'</script>'."\n".'<script type="text/javascript">var ue_'.$id.' = UE.getEditor("'.$id.'");</script>'."\n";
                 break;
             default :
                 $parseStr  =  '<textarea id="'.$id.'" style="'.$style.'" name="'.$name.'" >'.$content.'</textarea>';
@@ -498,21 +500,21 @@ class Html extends TagLib{
             if(!empty($actionlist[0])) {//显示指定的功能项
                 $parseStr .= '<td>';
                 foreach($actionlist as $val) {
-					if(strpos($val,':')) {
-						$a = explode(':',$val);
-						if(count($a)>2) {
+                    if(strpos($val,':')) {
+                        $a = explode(':',$val);
+                        if(count($a)>2) {
                             $parseStr .= '<a href="javascript:'.$a[0].'(\'{$'.$name.'.'.$a[2].'}\')">'.$a[1].'</a>&nbsp;';
-						}else {
-							$parseStr .= '<a href="javascript:'.$a[0].'(\'{$'.$name.'.'.$pk.'}\')">'.$a[1].'</a>&nbsp;';
-						}
-					}else{
-						$array	=	explode('|',$val);
-						if(count($array)>2) {
-							$parseStr	.= ' <a href="javascript:'.$array[1].'(\'{$'.$name.'.'.$array[0].'}\')">'.$array[2].'</a>&nbsp;';
-						}else{
-							$parseStr .= ' {$'.$name.'.'.$val.'}&nbsp;';
-						}
-					}
+                        }else {
+                            $parseStr .= '<a href="javascript:'.$a[0].'(\'{$'.$name.'.'.$pk.'}\')">'.$a[1].'</a>&nbsp;';
+                        }
+                    }else{
+                        $array	=	explode('|',$val);
+                        if(count($array)>2) {
+                            $parseStr	.= ' <a href="javascript:'.$array[1].'(\'{$'.$name.'.'.$array[0].'}\')">'.$array[2].'</a>&nbsp;';
+                        }else{
+                            $parseStr .= ' {$'.$name.'.'.$val.'}&nbsp;';
+                        }
+                    }
                 }
                 $parseStr .= '</td>';
             }
