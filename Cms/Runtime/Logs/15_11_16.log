@@ -1,0 +1,9 @@
+[ 2015-11-16T13:13:01+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/modAdmin.html?id=10
+ERR: 非法操作:modAdmin
+
+[ 2015-11-16T18:11:39+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/Login
+ERR: 非法操作:Login
+
+[ 2015-11-16T21:12:10+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/addColumn.html
+ERR: 非法操作:addColumn
+

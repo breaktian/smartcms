@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>角色管理</title>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/admin.css" />
+</head>
+<body>
+
+<div class="title">
+	<a class="a" href="<{:U('Index/role')}>">角色列表</a>
+	<a class="selected" href="<{:U('Index/addRole')}>">新增角色</a>
+</div>
+
+<form action="<{:U('Index/addRolePost')}>" method="post" class="form auto">
+	<dl>
+		<dd><label>角色：</label><input type="text" name="rolename" placeholder="输入角色名称"/></dd>
+		<dd><label>赋权：</label>
+			<div class="checkbox">
+			<volist name="permission" id="vo">
+				<label ><input type="checkbox" name="<{$vo.enname}>" value="<{$vo.id}>"/><{$vo.name}></label>
+			</volist>
+			</div>
+		</dd>
+		<input type="submit" value="新增角色" class="submit" onclick=""/>
+	</dl>
+
+</form>
+
+
+</body>
+</html>

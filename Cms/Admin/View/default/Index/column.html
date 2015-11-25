@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>栏目管理</title>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/admin.css" />
+</head>
+<body>
+
+<div class="title">
+	<a class="selected" href="<{:U('Index/column')}>">栏目列表</a>
+	<a class="a" href="<{:U('Index/addColumn')}>">新增栏目</a>
+</div>
+
+<table class="table auto">
+<tr><th>编号</th><th>栏目名称</th><th>栏目种类</th><th>排序</th><th>创建时间</th><th>操作</th></tr>
+<volist name="columns" id="vo">
+	<tr>
+		<td><{$key+1}></td>
+		<td style="text-align:left;padding-left:50px;text-indent: <{$vo['count']*30}>px;"><if condition="$vo.parentid neq 0"><span style="color:#D0D0D0;">|-- </span></if><{$vo.name}></td>
+		<td><{$vo['class']['name']}></td>
+		<td><{$vo['sort']}></td>
+		<td><{$vo['createtime']}></td>
+		<td>
+		<a class="a" href="<{:U('Index/modColumn')}>?id=<{$vo['id']}>">修改</a>
+		|
+		<a class="a" href="<{:U('Index/delColumn')}>?id=<{$vo['id']}>">删除</a>
+		</td>
+	</tr>
+</volist>	
+	
+</table>
+
+
+
+
+</body>
+</html>

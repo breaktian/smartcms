@@ -1,0 +1,6 @@
+1.超级管理员  admin 123456
+2.index.php // 关闭调试模式 	define('APP_DEBUG',false);
+3.关闭页面Trace 'SHOW_PAGE_TRACE' =>false,
+
+3.修改Cms/ueditconfig.json 中 "imageUrlPrefix": "http://127.0.0.1/smartcms", /* 图片访问路径前缀 */
+

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>新闻管理</title>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/admin.css" />
+<script type="text/javascript" src="__PUBLIC__/js/jquery-1.4a2.min.js"></script>
+
+<script type="text/javascript">
+   function news(id){
+        var id = id;
+        $.get("news?id=<{$column.id}>", {'p':id}, function(data){
+	        $("#news").html(data); 
+	       	//alert(data);
+         });
+    }
+            
+</script>
+
+</head>
+<body>
+
+<div class="title">
+	<a class="selected" href="<{:U('Content/news')}>?id=<{$column.id}>"><{$column.name}></a>
+	<a class="a" href="<{:U('Content/addNews')}>?id=<{$column.id}>">新增</a>
+</div>
+<div id="news">
+	<table class="table auto">
+	<tr><th>编号</th><th>标题</th><th>关键字</th><th>状态</th><th>发布日期</th><th>添加时间</th><th>操作</th></tr>
+	<volist name="content" id="vo">
+		<tr>
+		<td><{$key+1}></td>
+		<td><{$vo['title']}></td>
+		<td><{$vo['keywords']}></td>
+		<td><if condition="$vo.isshow eq 1">发布<else/>未发布</if></td>
+		<td><{$vo['issuedate']}> <{$vo['issuetime']}></td>
+		<td><{$vo['addtime']}></td>
+		<td>
+		<a class="a" href="<{:U('Content/modNews')}>?id=<{$vo['id']}>">修改</a>
+		|
+		<a class="a" href="<{:U('Content/delNews')}>?id=<{$vo['id']}>">删除</a>
+		</td></tr>
+	</volist>
+	</table>
+	
+	
+	<div class="auto page" style="margin-top:10px;text-align: center;">
+		<{$page}>
+	</div>
+</div>
+
+</body>
+</html>

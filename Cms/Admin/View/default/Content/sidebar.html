@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>sidebar</title>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/admin.css" />
+<script type="text/javascript" src="__PUBLIC__/js/jquery-1.4a2.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/js/sidebar_content_click.js"></script>
+</head>
+<body class="sidebar_content">
+<dl>
+	<dt>内容管理</dt>
+	<volist name="columns" id="vo">
+		<dd <if condition="$vo.count eq 0">style="font-weight: bold;"</if> onclick="sidebar_content_click($(this).index())" class="sidebar-content">
+		<if condition="$vo.count neq 0">
+		<span style="font-size:12px;color:#CCCCCC;padding-left: <{$vo['count']*8}>px;">|-</span>
+		</if><a <if condition="$vo.class eq 2">href="<{:U('Content/page')}>?id=<{$vo.id}>"<else/>href="<{:U('Content/news')}>?id=<{$vo.id}>"</if> target="main">
+		<{$vo.name}>
+		</a>
+		</dd>
+	</volist>
+</dl>
+
+</body>
+</html>

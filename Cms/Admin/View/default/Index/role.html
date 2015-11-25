@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>角色管理</title>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/admin.css" />
+</head>
+<body>
+
+<div class="title">
+	<a class="selected" href="<{:U('Index/role')}>">角色列表</a>
+	<a class="a" href="<{:U('Index/addRole')}>">新增角色</a>
+</div>
+
+<table class="table auto">
+<tr><th>编号</th><th>角色名称</th><th>权限</th><th>创建时间</th><th>操作</th></tr>
+<volist name="data" id="vo">
+	<tr>
+	<td><{$key+1}></td>
+	<td><{$vo['name']}></td>
+	<td style="text-align:left;">
+	<volist name="vo['permission']" id="sub"><label class="permission"><{$sub[0]['name']}></label></volist>
+	</td>
+	<td><{$vo['createtime']}></td>
+	<td>
+	<a class="a" href="<{:U('Index/modRole')}>?id=<{$vo['id']}>">修改</a>
+	|
+	<a class="a" href="<{:U('Index/delRole')}>?id=<{$vo['id']}>">删除</a>
+	</td></tr>
+</volist>
+</table>
+
+
+</body>
+</html>

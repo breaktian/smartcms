@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>sidebar</title>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/admin.css" />
+</head>
+<body class="sidebar">
+<dl>
+	<dt>管理首页</dt>
+	<dd><a href="<{:U('Index/main')}>" target="main">后台首页</a></dd>
+	<if condition="$data['admin'] eq 1">
+	<dd><a href="<{:U('Index/admin')}>" target="main">管理员管理</a></dd>
+	</if>
+	<if condition="$data['role'] eq 1">
+	<dd><a href="<{:U('Index/role')}>" target="main">角色管理</a></dd>
+	</if>
+	<if condition="$data['column'] eq 1">
+	<dd><a href="<{:U('Index/column')}>" target="main">栏目管理</a></dd>
+	</if>
+
+</dl>
+
+</body>
+</html>

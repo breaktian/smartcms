@@ -1,0 +1,482 @@
+[ 2015-11-23T21:10:19+08:00 ] 127.0.0.1 /smartcms/index.php/admin/index/addadminpost.html
+ERR: 1048:Column 'username' cannot be null
+ [ SQL语句 ] : INSERT INTO `smart_admin` (`username`,`password`,`roleid`,`createtime`) VALUES (NULL,NULL,NULL,'2015-11-23 21:10:18')
+ERR: 1048:Column 'username' cannot be null
+ [ SQL语句 ] : INSERT INTO `smart_admin` (`username`,`password`,`roleid`,`createtime`) VALUES (NULL,NULL,NULL,'2015-11-23 21:10:18')
+
+[ 2015-11-23T21:11:05+08:00 ] 127.0.0.1 /smartcms/index.php/admin/index/addnewspost.html
+ERR: 非法操作:addnewspost
+
+[ 2015-11-23T21:14:53+08:00 ] 127.0.0.1 /smartcms/index.php/admin/content/news.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `smart_column` WHERE ( id= ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `smart_column` WHERE ( id= ) LIMIT 1  
+
+[ 2015-11-23T21:16:48+08:00 ] 127.0.0.1 /smartcms/index.php/admin/content/news.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `smart_column` WHERE ( id= ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `smart_column` WHERE ( id= ) LIMIT 1  
+
+[ 2015-11-23T21:16:59+08:00 ] 127.0.0.1 /smartcms/index.php/admin/Content/news.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `smart_column` WHERE ( id= ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `smart_column` WHERE ( id= ) LIMIT 1  
+
+[ 2015-11-23T21:17:01+08:00 ] 127.0.0.1 /smartcms/index.php/admin/Content/news.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `smart_column` WHERE ( id= ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `smart_column` WHERE ( id= ) LIMIT 1  
+
+[ 2015-11-23T21:18:04+08:00 ] 127.0.0.1 /smartcms/index.php/admin/content/news.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `smart_column` WHERE ( id= ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `smart_column` WHERE ( id= ) LIMIT 1  
+
+[ 2015-11-23T21:18:09+08:00 ] 127.0.0.1 /smartcms/index.php/admin/content/
+ERR: 非法操作:index
+
+[ 2015-11-23T21:19:03+08:00 ] 127.0.0.1 /smartcms/index.php/admin/content/news.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `smart_column` WHERE ( id= ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `smart_column` WHERE ( id= ) LIMIT 1  
+
+[ 2015-11-23T21:20:12+08:00 ] 127.0.0.1 /smartcms/index.php/admin/content/news.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `smart_column` WHERE ( id= ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `smart_column` WHERE ( id= ) LIMIT 1  
+
+[ 2015-11-23T21:21:20+08:00 ] 127.0.0.1 /smartcms/index.php/admin/content/news.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `smart_column` WHERE ( id= ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `smart_column` WHERE ( id= ) LIMIT 1  
+
+[ 2015-11-23T21:22:06+08:00 ] 127.0.0.1 /smartcms/index.php/admin/content/news.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `smart_column` WHERE ( id= ) LIMIT 1  
+
+[ 2015-11-23T21:22:23+08:00 ] 127.0.0.1 /smartcms/index.php/admin/content/news.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `smart_column` WHERE ( id= ) LIMIT 1  
+
+[ 2015-11-23T21:22:50+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Content/news.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `smart_column` WHERE ( id= ) LIMIT 1  
+
+[ 2015-11-23T21:38:57+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/delNews.html?id=4
+ERR: 非法操作:delNews
+
+[ 2015-11-23T21:55:10+08:00 ] 127.0.0.1 /smartcms/index.php/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+NOTIC: [2] Missing argument 1 for access(), called in D:\wamp\www\smartcms\Cms\Admin\Controller\IndexController.class.php on line 14 and defined D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 34 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 39 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 41 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-23T21:55:10+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+NOTIC: [2] Missing argument 1 for access(), called in D:\wamp\www\smartcms\Cms\Admin\Controller\IndexController.class.php on line 26 and defined D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 34 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 39 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 41 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2015-11-23T21:55:10+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/sidebar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+NOTIC: [2] Missing argument 1 for access(), called in D:\wamp\www\smartcms\Cms\Admin\Controller\IndexController.class.php on line 43 and defined D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 34 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 39 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 41 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-23T21:55:10+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+NOTIC: [2] Missing argument 1 for access(), called in D:\wamp\www\smartcms\Cms\Admin\Controller\IndexController.class.php on line 54 and defined D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 34 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 39 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 41 行.
+SQL: SHOW COLUMNS FROM `smart_role` [ RunTime:0.0040s ]
+SQL: SELECT `name` FROM `smart_role` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8192] mysql_get_server_info(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\smartcms\Cms\Admin\Controller\IndexController.class.php 第 72 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-23T21:55:12+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Content/sidebar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `smart_column` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`name`,`parentid`,`class`,`sort` FROM `smart_column`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-23T21:55:13+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Content/news.html?id=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `smart_column` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `smart_column` WHERE ( id=14 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `smart_content` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `smart_content` WHERE ( columnid=14 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-23T21:55:15+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Content/news.html?id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `smart_column` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `smart_column` WHERE ( id=6 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `smart_content` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `smart_content` WHERE ( columnid=6 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-23T21:55:18+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Content/modNews.html?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `smart_column` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `smart_content` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `smart_content` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_column` WHERE ( id=6 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-23T21:55:18+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Content/ueditup?action=config&&noCache=1448286918475
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-23T21:55:33+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Content/ueditup?action=uploadimage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\smartcms\Think\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-23T21:55:34+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Content/addNewsPost.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: columnid D:\wamp\www\smartcms\Cms\Admin\Controller\ContentController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `smart_content` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\smartcms\Think\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\smartcms\Think\Library\Think\Model.class.php 第 1128 行.
+ERR: 1062:Duplicate entry '1' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `smart_content` (`title`,`keywords`,`id`,`content`,`addtime`) VALUES ('111111','11,13','1','&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;border: 1px solid rgb(0, 0, 0);&quot;&gt;3333333333333333333333333333333333333333333333333333333333333333333333333333333&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;border: 1px solid rgb(0, 0, 0);&quot;&gt;&lt;img alt=&quot;Lighthouse.jpg&quot; src=&quot;http://127.0.0.1/smartcms/Uploads/editor/image/2015-11-23/1448286933174432.jpg&quot; title=&quot;1448286933174432.jpg&quot;/&gt;&lt;/span&gt;&lt;/strong&gt;&lt;br/&gt;&lt;/p&gt;','2015-11-23 21:55:34')
+ERR: 1062:Duplicate entry '1' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `smart_content` (`title`,`keywords`,`id`,`content`,`addtime`) VALUES ('111111','11,13','1','&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;border: 1px solid rgb(0, 0, 0);&quot;&gt;3333333333333333333333333333333333333333333333333333333333333333333333333333333&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;&lt;span style=&quot;border: 1px solid rgb(0, 0, 0);&quot;&gt;&lt;img alt=&quot;Lighthouse.jpg&quot; src=&quot;http://127.0.0.1/smartcms/Uploads/editor/image/2015-11-23/1448286933174432.jpg&quot; title=&quot;1448286933174432.jpg&quot;/&gt;&lt;/span&gt;&lt;/strong&gt;&lt;br/&gt;&lt;/p&gt;','2015-11-23 21:55:34')
+
+[ 2015-11-23T21:55:45+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Content/ueditup?action=config&&noCache=1448286945805
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-23T21:55:49+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Content/addNews.html?id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `smart_column` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `smart_column` WHERE ( id=6 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-23T21:55:49+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Content/ueditup?action=config&&noCache=1448286949898
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-23T21:56:13+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Content/ueditup?action=uploadimage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\smartcms\Think\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-23T21:56:29+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Content/addNewsPost.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `smart_content` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\smartcms\Think\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\smartcms\Think\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `smart_content` (`title`,`keywords`,`columnid`,`content`,`addtime`) VALUES ('中国陆军最大船艇入列海南三沙(图)','军事','6','&lt;p&gt;&lt;img alt=&quot;Lighthouse.jpg&quot; src=&quot;http://127.0.0.1/smartcms/Uploads/editor/image/2015-11-23/1448286973817819.jpg&quot; title=&quot;1448286973817819.jpg&quot;/&gt;&lt;/p&gt;&lt;p&gt;央视新闻：【陆军最大船艇入列海南三沙】今天，我国陆军新型综合保障船在海南三沙入役，该船长90米，宽14.6米，最大排水量2700吨，是陆军目前装备的排水量最大船艇，具备大型装备成建制输送能力，将主要担负三沙方向物资补给、装备输送和海上救援等。&lt;/p&gt;','2015-11-23 21:56:29') [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-23T21:56:30+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Content/news/id/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `smart_column` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `smart_column` WHERE ( id=6 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `smart_content` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `smart_content` WHERE ( columnid=6 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-23T21:56:33+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Content/modNews.html?id=9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `smart_column` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `smart_content` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `smart_content` WHERE ( id=9 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `smart_column` WHERE ( id=6 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-23T21:56:33+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Content/ueditup?action=config&&noCache=1448286993201
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-23T22:02:00+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Content/addNewsPost.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+NOTIC: [8] Undefined index: columnid D:\wamp\www\smartcms\Cms\Admin\Controller\ContentController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `smart_content` [ RunTime:0.0220s ]
+NOTIC: [8] Undefined index: validate D:\wamp\www\smartcms\Think\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\wamp\www\smartcms\Think\Library\Think\Model.class.php 第 1128 行.
+ERR: 1062:Duplicate entry '9' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `smart_content` (`title`,`keywords`,`id`,`content`,`addtime`) VALUES ('中国陆军最大船艇入列海南三沙(图)','军事，中国','9','&lt;p&gt;&lt;img alt=&quot;Lighthouse.jpg&quot; src=&quot;http://127.0.0.1/smartcms/Uploads/editor/image/2015-11-23/1448286973817819.jpg&quot; title=&quot;1448286973817819.jpg&quot;/&gt;&lt;/p&gt;&lt;p&gt;央视新闻：【陆军最大船艇入列海南三沙】今天，我国陆军新型综合保障船在海南三沙入役，该船长90米，宽14.6米，最大排水量2700吨，是陆军目前装备的排水量最大船艇，具备大型装备成建制输送能力，将主要担负三沙方向物资补给、装备输送和海上救援等。111&lt;/p&gt;','2015-11-23 22:02:00')
+ERR: 1062:Duplicate entry '9' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `smart_content` (`title`,`keywords`,`id`,`content`,`addtime`) VALUES ('中国陆军最大船艇入列海南三沙(图)','军事，中国','9','&lt;p&gt;&lt;img alt=&quot;Lighthouse.jpg&quot; src=&quot;http://127.0.0.1/smartcms/Uploads/editor/image/2015-11-23/1448286973817819.jpg&quot; title=&quot;1448286973817819.jpg&quot;/&gt;&lt;/p&gt;&lt;p&gt;央视新闻：【陆军最大船艇入列海南三沙】今天，我国陆军新型综合保障船在海南三沙入役，该船长90米，宽14.6米，最大排水量2700吨，是陆军目前装备的排水量最大船艇，具备大型装备成建制输送能力，将主要担负三沙方向物资补给、装备输送和海上救援等。111&lt;/p&gt;','2015-11-23 22:02:00')
+
+[ 2015-11-23T22:03:23+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Content/news.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `smart_column` WHERE ( id= ) LIMIT 1  
+

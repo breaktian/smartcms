@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit();?>注销登录，跳转到登陆页

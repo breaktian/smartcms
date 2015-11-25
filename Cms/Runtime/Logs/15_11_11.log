@@ -1,0 +1,6 @@
+[ 2015-11-11T20:48:21+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/addRolePost.html
+ERR: Think\Model:cutPermissionStr方法不存在！
+
+[ 2015-11-11T20:52:08+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/addRolePost.html
+ERR: Think\Model:cutPermissionStr方法不存在！
+

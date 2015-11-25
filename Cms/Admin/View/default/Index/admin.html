@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>管理员管理</title>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/admin.css" />
+</head>
+<body>
+
+<div class="title">
+	<a class="selected" href="<{:U('Index/admin')}>">管理员列表</a>
+	<a class="a" href="<{:U('Index/addAdmin')}>">新增管理员</a>
+</div>
+
+<table class="table auto">
+<tr><th>编号</th><th>管理员名称</th><th>角色</th><th>最近登录时间</th><th>登录次数</th><th>创建时间</th><th>操作</th></tr>
+<volist name="admins" id="vo">
+	<tr>
+	<td><{$key+1}></td>
+	<td><{$vo['username']}></td>
+	<td><{$vo['role']['name']}></td>
+	<td><{$vo['logintime']}></td>
+	<td><{$vo['logincount']}></td>
+	<td><{$vo['createtime']}></td>
+	<td>
+	<a class="a" href="<{:U('Index/modAdmin')}>?id=<{$vo['id']}>">修改</a>
+	|
+	<a class="a" href="<{:U('Index/delAdmin')}>?id=<{$vo['id']}>">删除</a>
+	</td></tr>
+</volist>
+</table>
+
+
+
+
+</body>
+</html>

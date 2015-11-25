@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>后台首页</title>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/admin.css" />
+</head>
+<body>
+
+	<dl class="box main">
+		<dt>我的个人信息</dt>
+		<dd>角色：<{$data['role']}></dd>
+		<dd>登录时间：<{$data['logintime']}></dd>
+		<dd>登陆次数：<{$data['logincount']}></dd>
+		<dd><a href="<{:U('Index/modPass')}>">修改密码</a></dd>
+	</dl>
+	<dl class="box main">
+		<dt>系统信息</dt>
+		<dd>操作系统：<{$data['php_os']}></dd>
+		<dd>ip地址：<{$data['remote_addr']}></dd>
+		<dd>服务器信息：<{$data['server_software']}></dd>
+		<dd>mysql版本：<{$data['sql_version']}></dd>
+	</dl>	
+	<dl class="box main">
+		<dt>开发团队</dt>
+		<dd>UI设计：张二狗</dd>
+		<dd>主程序：breaktian</dd>
+		<dd>公司：<a href="http://www.hbounty.com" class="a" target="_blank">赏金网络科技有限公司</a></dd>
+	</dl>	
+
+</body>
+</html>

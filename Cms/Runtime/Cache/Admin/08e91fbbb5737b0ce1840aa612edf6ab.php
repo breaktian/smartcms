@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit();?>验证码错误

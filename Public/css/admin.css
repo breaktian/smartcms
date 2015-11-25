@@ -1,0 +1,92 @@
+@CHARSET "UTF-8";
+body,h1,h2,h3,p,form,ul,li,dl,dt,dd {
+	padding:0;
+	margin:0;
+}
+body {
+	background:#fff;
+	font-size:12px;
+}
+ul {
+	list-style-type:none;
+}
+.auto{margin:0px auto;}
+.a{text-decoration:none;color:#000000;}
+.a:hover{text-decoration:underline;color:red;}
+.box{border: 1px solid #C7D8EA;}
+.box dt{height:30px;line-height:30px;border-bottom: 1px solid #C7D8EA;background:transparent url("../images/x_bg.png") repeat-x scroll left -42px;font-size:14px;padding-left:5px;}
+.box dd{line-height:20px;padding-left: 10px;font-size: 13px;margin:3px;}
+
+.title{color:#000000;background: #F5F5F5;height: 35px;line-height: 35px;border-bottom: 2px solid #003C9D;margin:10px;padding-left:5px;}
+.title a{margin-left: 10px;font-size:14px;float:left;padding-top:3px;padding-bottom:3px;padding-left:7px;padding-right:7px;}
+.selected{border-radius: 2px;height:20px;line-height:20px;margin:5px;diaplay:block;background:#006699;padding-top:3px;padding-bottom:3px;padding-left:7px;padding-right:7px;color:#FFFFFF;cursor: pointer;font-size:14px;text-decoration: none;}
+.selected:hover{background:#0099CC;}
+
+.page a{text-decoration:none;color:#000000;}
+.page a:hover{text-decoration:underline;color:red;}
+
+/*这里是top页面*/
+#top{background:url(../images/admin_top_bg.gif);overflow:hidden;}
+#top h1{background:url(../images/logosmall.png) no-repeat;width:180px;height:80px;text-indent:-9999px;float:left;}
+#top ul{float:left;margin:41px 0 0 20px;}
+#top ul li{float:left;height:39px;line-height:39px;width:78px;text-align:center;color:#FFFFFF;background:url(../images/li_bg.png) no-repeat left bottom;}
+#top ul .select {background-position:right bottom;}
+#top ul .select a{color:#3b6ea5;}
+#top ul li a{display:block;width:78px;height:39px;text-decoration:none;font-size:14px;font-weight:bold;color:#FFFFFF;}
+#top ul li a:hover{text-decoration:none;}
+#top p{float:right;display:inline-block;margin:10px 20px 0 0;font-size:13px;height:20px;line-height:20px;color:#FFFFFF;}
+
+/*这里是sidebar页面*/
+.sidebar{background:#F7FBFC;background:url(../images/sidebar_right.png) right repeat-y;}
+.sidebar dl{width:80%;margin-top:25px;margin-left:auto;margin-right:auto;}
+.sidebar dl dt{height:30px;line-height:30px;border-bottom:1px solid #cccccc;font-size:16px;color:#369;font-weight:bold;}
+.sidebar dl dd{height:20px;line-height:20px;font-size:13px;padding:8px 0 0 20px;background:url(../images/d.jpg) no-repeat 0 10px;}
+.sidebar dl dd a{text-decoration:none;color:#333333;}
+.sidebar dl dd a:hover{text-decoration:underline;color:#333333;}
+
+/*这里是sidebar_content页面*/
+.sidebar_content{background:#F7FBFC;background:url(../images/sidebar_right.png) right repeat-y;}
+.sidebar_content dl{width:80%;margin-top:25px;margin-left:auto;margin-right:auto;}
+.sidebar_content dl dt{height:30px;line-height:30px;margin-bottom: 10px;border-bottom:1px solid #cccccc;font-size:16px;color:#369;font-weight:bold;}
+.sidebar_content dl dd{height:16px;line-height:16px;font-size:13px;margin:8px 0 0 0px;}
+.sidebar_content dl dd a{text-decoration:none;color:#333333;}
+.sidebar_content dl dd a:hover{text-decoration:underline;color:#333333;}
+
+
+
+/*这里是登录页面*/
+#login{width:600px;margin:0px auto;margin-top:300px;}
+#login fieldset legend{font-size:18px;color:#3A6DA4;font-weight: bold;}
+#login fieldset{padding:30px;font-size:16px;}
+#login fieldset label{display: block;height: 40px;margin-top: 10px;color:#3A6DA4;}
+#login fieldset label .passplace{color:#FFFFFF;}
+#login fieldset label input{width:230px;border: 1px #CCCCCC solid;height:30px;line-height:30px;font-size: 16px;padding-left: 5px;}
+#login fieldset label input.verify{width:130px;vertical-align:middle;}
+#login fieldset label img.verify{width: 98px;height:38px;vertical-align:middle;margin-left: 2px;cursor: pointer;}
+#login fieldset input.submit{margin-top:10px;background: #DDDDDD;color:#FFFFFF;background: #3A6DA4;font-size: 14px;border:0px;border-radius:3px;height:40px;width:100px;line-height: 40px;}
+
+.main{width: 48%;float:left;margin:10px;}
+
+#addadmin{width: 100%;}
+.form{width:95%;}
+.form dl dd{height: 100%;padding: 15px;border-bottom: 1px solid #F2F2F2;}
+.form dl dd:hover{background: #fbf8e9;}
+.form dl dd label{font-size: 14px;}
+.form dl dd input[type="text"]{width:230px;border: 1px #CCCCCC solid;height:30px;line-height:30px;font-size: 16px;padding-left: 5px;}
+.form dl dd input[type="password"]{width:230px;border: 1px #CCCCCC solid;height:30px;line-height:30px;font-size: 16px;padding-left: 5px;}
+.form dl dd input[type="number"]{width:230px;border: 1px #CCCCCC solid;height:30px;line-height:30px;font-size: 16px;padding-left: 5px;}
+.form dl input.submit{margin-left:15px;margin-top:10px;background: #228B22;color:#FFFFFF;font-size: 14px;border:0px;border-radius:2px;height:35px;width:100px;line-height: 35px;}
+.form dl dd select{border:1px solid #cccccc;padding-left:5px;padding-right:5px;padding-top:2px;padding-bottom: 2px;}
+
+.form dl dd .checkbox{ width: 100px;display:inline;}
+.form dl dd .checkbox label{font-size: 13px;color:blue;background: #CCCCCC;border-radius:2px;margin-left:15px;padding:5px;}
+.form dl dd .checkbox label input[type="checkbox"]{}
+
+.table{*border-collapse: collapse; border-spacing: 0; width: 95%;border-bottom:1px solid #CCCCCC;border-right:1px solid #CCCCCC;font-size: 14px;}
+.table tr th{border-left:1px solid #CCCCCC;border-top:1px solid #CCCCCC;background: #DDDDDD;}
+.table tr td{border-left:1px solid #CCCCCC;border-top:1px solid #CCCCCC;text-align: center;}
+.table tr{height:30px;}
+.table tr:hover{background: #fbf8e9;  }
+.table tr td label.permission{font-size: 13px;color:blue;background: #CCCCCC;border-radius:2px;margin-left:15px;padding:3px;}
+
+

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>新增新闻</title>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/admin.css" />
+<taglib name="html" />
+</head>
+<body id="addadmin">
+
+<div class="title">
+	<a class="a" href="<{:U('Content/news')}>?id=<{$column.id}>"><{$column.name}></a>
+	<a class="selected" href="<{:U('Content/addNews')}>?id=<{$column.id}>">新增</a>
+</div>
+
+<form action="<{:U('Content/addNewsPost')}>" method="post" class="form auto">
+	<dl>
+		<dd><label>标<span style="color:#FFFFFF;">标</span>题：</label><input type="text" name="title" placeholder="输入标题" style="width:420px;"/></dd>
+		<dd><label>关键词：</label><input type="text" name="keywords" placeholder="关键词用逗号隔开" style="width:420px;"/></dd>
+		<dd><label>内<span style="color:#FFFFFF;">内</span>容：</label>
+		<html:editor id="info" name="content" type="UEDITOR"></html:editor>
+		</dd>
+		<dd><label>状态：</label>
+		<input type="radio" name="isshow" value="1" checked="checked" />发布
+		<input type="radio" name="isshow" value="0"  />不发布
+		</dd>
+		<dd><label>日期：</label><input type="date" name="issuedate"/>  <input type="time" name="issuetime"/></dd>
+		<input type="hidden" name="columnid" value="<{$column.id}>"/>
+		<input type="submit" value="新增内容" class="submit" onclick=""/>
+	</dl>
+
+</form>
+
+</body>
+</html>
