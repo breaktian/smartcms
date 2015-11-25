@@ -43,6 +43,9 @@
         if(!isset($_SESSION['login'])){
             return false;
         }
+        if($_SESSION['login']['id']=='0'){
+            return true;
+        }
 //         var_dump(contants('1,2', '13'));
 //         var_dump($_SESSION['login']);
         $permission = $_SESSION['login']['role']['permission'];

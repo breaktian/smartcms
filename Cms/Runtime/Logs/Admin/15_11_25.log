@@ -14798,3 +14798,2854 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
 
+[ 2015-11-25T14:56:30+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Content/news.html?id=11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `smart_column` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `smart_column` WHERE ( id=11 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `smart_content` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `smart_content` WHERE ( columnid=11 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_content` WHERE ( columnid=11 ) ORDER BY addtime desc LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-25T14:56:31+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Content/addNews.html?id=11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `smart_column` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `smart_column` WHERE ( id=11 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-25T14:56:31+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Content/ueditup?action=config&&noCache=1448434591652
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-25T14:56:32+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Content/sidebar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `smart_column` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`name`,`parentid`,`class`,`sort` FROM `smart_column`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-25T14:56:33+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Content/news.html?id=18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `smart_column` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `smart_column` WHERE ( id=18 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `smart_content` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `smart_content` WHERE ( columnid=18 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `smart_content` WHERE ( columnid=18 ) ORDER BY addtime desc LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-25T14:56:35+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Content/news.html?id=21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `smart_column` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `smart_column` WHERE ( id=21 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `smart_content` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `smart_content` WHERE ( columnid=21 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_content` WHERE ( columnid=21 ) ORDER BY addtime desc LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-25T14:56:39+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/sidebar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+NOTIC: [2] Missing argument 1 for access(), called in D:\wamp\www\smartcms\Cms\Admin\Controller\IndexController.class.php on line 57 and defined D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 42 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 50 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 52 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 54 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 56 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-25T14:56:39+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/admin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `smart_admin` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `smart_role` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `smart_admin` WHERE ( id!=0 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `smart_role` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `smart_role` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `smart_role` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `smart_role` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `smart_role` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `smart_role` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-25T14:56:40+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Content/sidebar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `smart_column` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`name`,`parentid`,`class`,`sort` FROM `smart_column`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-25T14:56:41+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/admin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `smart_admin` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `smart_role` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `smart_admin` WHERE ( id!=0 )  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `smart_role` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `smart_role` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `smart_role` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `smart_role` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `smart_role` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `smart_role` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-25T14:56:43+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Content/news.html?id=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `smart_column` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `smart_column` WHERE ( id=10 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `smart_content` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `smart_content` WHERE ( columnid=10 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_content` WHERE ( columnid=10 ) ORDER BY addtime desc LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-25T14:57:02+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/sidebar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+NOTIC: [2] Missing argument 1 for access(), called in D:\wamp\www\smartcms\Cms\Admin\Controller\IndexController.class.php on line 57 and defined D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 42 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 50 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 52 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 54 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 56 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007000s ]
+
+[ 2015-11-25T14:57:03+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+NOTIC: [2] Missing argument 1 for access(), called in D:\wamp\www\smartcms\Cms\Admin\Controller\IndexController.class.php on line 92 and defined D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 42 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 50 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 52 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 54 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 56 行.
+SQL: SHOW COLUMNS FROM `smart_role` [ RunTime:0.0030s ]
+SQL: SELECT `name` FROM `smart_role` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8192] mysql_get_server_info(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\smartcms\Cms\Admin\Controller\IndexController.class.php 第 110 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-11-25T14:57:04+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/admin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `smart_admin` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `smart_role` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `smart_admin` WHERE ( id!=0 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `smart_role` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `smart_role` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `smart_role` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `smart_role` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `smart_role` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `smart_role` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-25T14:57:05+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+NOTIC: [2] Missing argument 1 for access(), called in D:\wamp\www\smartcms\Cms\Admin\Controller\IndexController.class.php on line 92 and defined D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 42 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 50 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 52 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 54 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 56 行.
+SQL: SHOW COLUMNS FROM `smart_role` [ RunTime:0.0040s ]
+SQL: SELECT `name` FROM `smart_role` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8192] mysql_get_server_info(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\smartcms\Cms\Admin\Controller\IndexController.class.php 第 110 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008000s ]
+
+[ 2015-11-25T14:57:09+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/admin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `smart_admin` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `smart_role` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `smart_admin` WHERE ( id!=0 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `smart_role` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `smart_role` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `smart_role` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `smart_role` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `smart_role` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `smart_role` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008000s ]
+
+[ 2015-11-25T14:58:25+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/addAdmin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `smart_role` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`name` FROM `smart_role`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-25T14:58:26+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Content/sidebar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `smart_column` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`name`,`parentid`,`class`,`sort` FROM `smart_column`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-25T14:58:26+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/sidebar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+NOTIC: [2] Missing argument 1 for access(), called in D:\wamp\www\smartcms\Cms\Admin\Controller\IndexController.class.php on line 57 and defined D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 42 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 50 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 52 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 54 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 56 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-25T14:58:27+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/admin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `smart_admin` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `smart_role` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `smart_admin` WHERE ( id!=0 )  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `smart_role` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `smart_role` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `smart_role` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `smart_role` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `smart_role` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `smart_role` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-25T14:58:29+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/column.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `smart_column_class` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `smart_column` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `smart_column`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-25T14:58:29+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/role.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `smart_permission` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `smart_role` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `smart_role`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=4 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=3 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-25T14:58:31+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/modRole.html?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `smart_role` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `smart_permission` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `smart_role` WHERE ( id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_permission`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-25T14:58:35+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/role.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `smart_permission` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `smart_role` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `smart_role`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=3 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=3 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-25T14:58:38+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/modRole.html?id=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `smart_role` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `smart_permission` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `smart_role` WHERE ( id=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_permission`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-25T14:58:39+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/addRole.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `smart_permission` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `smart_permission`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-25T14:58:46+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/role.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `smart_permission` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `smart_role` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `smart_role`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=3 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=3 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-25T14:58:49+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/modRole.html?id=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `smart_role` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `smart_permission` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `smart_role` WHERE ( id=4 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `smart_permission`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-25T14:58:56+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/addRole.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `smart_permission` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `smart_permission`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-11-25T14:58:59+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/role.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `smart_permission` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `smart_role` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `smart_role`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=3 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=3 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-25T14:59:00+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/addRole.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `smart_permission` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `smart_permission`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-25T14:59:03+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/role.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `smart_permission` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `smart_role` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `smart_role`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=3 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=3 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.329019s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.329019s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-25T14:59:10+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/role.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `smart_permission` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `smart_role` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `smart_role`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=3 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=4 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=3 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-25T14:59:11+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/column.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `smart_column_class` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `smart_column` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `smart_column`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-25T15:00:58+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Content/sidebar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `smart_column` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`name`,`parentid`,`class`,`sort` FROM `smart_column`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-25T15:26:46+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Content/news.html?id=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `smart_column` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `smart_column` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `smart_content` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `smart_content` WHERE ( columnid=4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_content` WHERE ( columnid=4 ) ORDER BY addtime desc LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-25T15:26:47+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Content/news.html?id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `smart_column` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `smart_column` WHERE ( id=6 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `smart_content` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `smart_content` WHERE ( columnid=6 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `smart_content` WHERE ( columnid=6 ) ORDER BY addtime desc LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-25T15:26:47+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Content/news.html?id=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `smart_column` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `smart_column` WHERE ( id=13 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `smart_content` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `smart_content` WHERE ( columnid=13 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_content` WHERE ( columnid=13 ) ORDER BY addtime desc LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-11-25T15:26:50+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Content/news.html?id=15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `smart_column` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `smart_column` WHERE ( id=15 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `smart_content` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `smart_content` WHERE ( columnid=15 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_content` WHERE ( columnid=15 ) ORDER BY addtime desc LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-25T15:26:51+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Content/addNews.html?id=15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `smart_column` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `smart_column` WHERE ( id=15 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-25T15:26:51+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Content/ueditup?action=config&&noCache=1448436411946
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-11-25T15:26:54+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Content/news.html?id=15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `smart_column` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `smart_column` WHERE ( id=15 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `smart_content` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `smart_content` WHERE ( columnid=15 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_content` WHERE ( columnid=15 ) ORDER BY addtime desc LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-25T15:26:55+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Content/news.html?id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `smart_column` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `smart_column` WHERE ( id=6 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `smart_content` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `smart_content` WHERE ( columnid=6 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `smart_content` WHERE ( columnid=6 ) ORDER BY addtime desc LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-25T15:26:56+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Content/news.html?id=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `smart_column` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `smart_column` WHERE ( id=14 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `smart_content` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `smart_content` WHERE ( columnid=14 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_content` WHERE ( columnid=14 ) ORDER BY addtime desc LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-25T15:26:57+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Content/news.html?id=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `smart_column` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `smart_column` WHERE ( id=13 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `smart_content` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `smart_content` WHERE ( columnid=13 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `smart_content` WHERE ( columnid=13 ) ORDER BY addtime desc LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-25T15:26:58+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Content/news.html?id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `smart_column` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `smart_column` WHERE ( id=6 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `smart_content` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `smart_content` WHERE ( columnid=6 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_content` WHERE ( columnid=6 ) ORDER BY addtime desc LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-25T15:27:06+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Content/news?id=6&p=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `smart_column` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `smart_column` WHERE ( id=6 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `smart_content` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `smart_content` WHERE ( columnid=6 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `smart_content` WHERE ( columnid=6 ) ORDER BY addtime desc LIMIT 5,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-25T15:27:07+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Content/news?id=6&p=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `smart_column` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `smart_column` WHERE ( id=6 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `smart_content` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `smart_content` WHERE ( columnid=6 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_content` WHERE ( columnid=6 ) ORDER BY addtime desc LIMIT 10,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-25T15:27:08+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Content/news?id=6&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `smart_column` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `smart_column` WHERE ( id=6 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `smart_content` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `smart_content` WHERE ( columnid=6 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `smart_content` WHERE ( columnid=6 ) ORDER BY addtime desc LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-25T15:27:16+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/sidebar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+NOTIC: [2] Missing argument 1 for access(), called in D:\wamp\www\smartcms\Cms\Admin\Controller\IndexController.class.php on line 57 and defined D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 42 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 50 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 52 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 54 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 56 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-25T15:27:44+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+NOTIC: [2] Missing argument 1 for access(), called in D:\wamp\www\smartcms\Cms\Admin\Controller\IndexController.class.php on line 14 and defined D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 42 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-25T15:27:57+08:00 ] 127.0.0.1 /smartcms/index.php/admin/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-25T15:27:57+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-25T15:28:04+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `smart_admin` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `smart_admin` WHERE ( username='admin' AND password='e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `smart_admin` SET `logincount`=logincount+1 WHERE ( id=0 ) [ RunTime:0.0000s ]
+SQL: UPDATE `smart_admin` SET `logintime`='2015-11-25 15:28:04' WHERE ( id=0 ) [ RunTime:0.0010s ]
+SQL: SELECT * FROM `smart_admin` WHERE ( username='admin' AND password='e10adc3949ba59abbe56e057f20f883e' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `smart_role` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `smart_role` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-11-25T15:28:04+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+NOTIC: [2] Missing argument 1 for access(), called in D:\wamp\www\smartcms\Cms\Admin\Controller\IndexController.class.php on line 14 and defined D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 42 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 50 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 52 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 54 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 56 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-25T15:28:04+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+NOTIC: [2] Missing argument 1 for access(), called in D:\wamp\www\smartcms\Cms\Admin\Controller\IndexController.class.php on line 28 and defined D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 42 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 50 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 52 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 54 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 56 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\smartcms\Cms\Admin\Controller\IndexController.class.php 第 38 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-25T15:28:04+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/sidebar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+NOTIC: [2] Missing argument 1 for access(), called in D:\wamp\www\smartcms\Cms\Admin\Controller\IndexController.class.php on line 57 and defined D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 42 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 50 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 52 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 54 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 56 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-25T15:28:04+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+NOTIC: [2] Missing argument 1 for access(), called in D:\wamp\www\smartcms\Cms\Admin\Controller\IndexController.class.php on line 92 and defined D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 42 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 50 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 52 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 54 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 56 行.
+SQL: SHOW COLUMNS FROM `smart_role` [ RunTime:0.0040s ]
+SQL: SELECT `name` FROM `smart_role` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8192] mysql_get_server_info(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\smartcms\Cms\Admin\Controller\IndexController.class.php 第 110 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-25T15:28:06+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/modPass.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+NOTIC: [2] Missing argument 1 for access(), called in D:\wamp\www\smartcms\Cms\Admin\Controller\IndexController.class.php on line 124 and defined D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 42 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 50 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 52 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 54 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 56 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-25T15:28:11+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+NOTIC: [2] Missing argument 1 for access(), called in D:\wamp\www\smartcms\Cms\Admin\Controller\IndexController.class.php on line 92 and defined D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 42 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 50 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 52 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 54 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 56 行.
+SQL: SHOW COLUMNS FROM `smart_role` [ RunTime:0.0080s ]
+SQL: SELECT `name` FROM `smart_role` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8192] mysql_get_server_info(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\smartcms\Cms\Admin\Controller\IndexController.class.php 第 110 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-25T15:28:17+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+NOTIC: [2] Missing argument 1 for access(), called in D:\wamp\www\smartcms\Cms\Admin\Controller\IndexController.class.php on line 14 and defined D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 42 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 50 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 52 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 54 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 56 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-25T15:28:17+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+NOTIC: [2] Missing argument 1 for access(), called in D:\wamp\www\smartcms\Cms\Admin\Controller\IndexController.class.php on line 28 and defined D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 42 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 50 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 52 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 54 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 56 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\smartcms\Cms\Admin\Controller\IndexController.class.php 第 38 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-25T15:28:17+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/sidebar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+NOTIC: [2] Missing argument 1 for access(), called in D:\wamp\www\smartcms\Cms\Admin\Controller\IndexController.class.php on line 57 and defined D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 42 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 50 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 52 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 54 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 56 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-25T15:28:17+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+NOTIC: [2] Missing argument 1 for access(), called in D:\wamp\www\smartcms\Cms\Admin\Controller\IndexController.class.php on line 92 and defined D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 42 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 50 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 52 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 54 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 56 行.
+SQL: SHOW COLUMNS FROM `smart_role` [ RunTime:0.0030s ]
+SQL: SELECT `name` FROM `smart_role` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8192] mysql_get_server_info(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\smartcms\Cms\Admin\Controller\IndexController.class.php 第 110 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-25T15:28:18+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+NOTIC: [2] Missing argument 1 for access(), called in D:\wamp\www\smartcms\Cms\Admin\Controller\IndexController.class.php on line 14 and defined D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 42 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 50 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 52 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 54 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 56 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-25T15:28:18+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+NOTIC: [2] Missing argument 1 for access(), called in D:\wamp\www\smartcms\Cms\Admin\Controller\IndexController.class.php on line 28 and defined D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 42 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 50 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 52 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 54 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 56 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\smartcms\Cms\Admin\Controller\IndexController.class.php 第 38 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-25T15:28:18+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+NOTIC: [2] Missing argument 1 for access(), called in D:\wamp\www\smartcms\Cms\Admin\Controller\IndexController.class.php on line 92 and defined D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 42 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 50 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 52 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 54 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 56 行.
+SQL: SHOW COLUMNS FROM `smart_role` [ RunTime:0.0050s ]
+SQL: SELECT `name` FROM `smart_role` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8192] mysql_get_server_info(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\smartcms\Cms\Admin\Controller\IndexController.class.php 第 110 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-25T15:28:18+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/sidebar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+NOTIC: [2] Missing argument 1 for access(), called in D:\wamp\www\smartcms\Cms\Admin\Controller\IndexController.class.php on line 57 and defined D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 42 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 50 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 52 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 54 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 56 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-25T15:28:18+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+NOTIC: [2] Missing argument 1 for access(), called in D:\wamp\www\smartcms\Cms\Admin\Controller\IndexController.class.php on line 14 and defined D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 42 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 50 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 52 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 54 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 56 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-25T15:28:18+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+NOTIC: [2] Missing argument 1 for access(), called in D:\wamp\www\smartcms\Cms\Admin\Controller\IndexController.class.php on line 28 and defined D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 42 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 50 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 52 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 54 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 56 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\smartcms\Cms\Admin\Controller\IndexController.class.php 第 38 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-25T15:28:18+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/sidebar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+NOTIC: [2] Missing argument 1 for access(), called in D:\wamp\www\smartcms\Cms\Admin\Controller\IndexController.class.php on line 57 and defined D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 42 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 50 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 52 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 54 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 56 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-25T15:28:18+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+NOTIC: [2] Missing argument 1 for access(), called in D:\wamp\www\smartcms\Cms\Admin\Controller\IndexController.class.php on line 92 and defined D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 42 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 50 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 52 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 54 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 56 行.
+SQL: SHOW COLUMNS FROM `smart_role` [ RunTime:0.0040s ]
+SQL: SELECT `name` FROM `smart_role` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8192] mysql_get_server_info(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\smartcms\Cms\Admin\Controller\IndexController.class.php 第 110 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-25T15:28:18+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+NOTIC: [2] Missing argument 1 for access(), called in D:\wamp\www\smartcms\Cms\Admin\Controller\IndexController.class.php on line 14 and defined D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 42 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 50 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 52 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 54 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 56 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-25T15:28:18+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+NOTIC: [2] Missing argument 1 for access(), called in D:\wamp\www\smartcms\Cms\Admin\Controller\IndexController.class.php on line 14 and defined D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 42 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 50 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 52 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 54 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 56 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-11-25T15:28:18+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+NOTIC: [2] Missing argument 1 for access(), called in D:\wamp\www\smartcms\Cms\Admin\Controller\IndexController.class.php on line 28 and defined D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 42 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 50 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 52 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 54 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 56 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\smartcms\Cms\Admin\Controller\IndexController.class.php 第 38 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-25T15:28:18+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/sidebar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+NOTIC: [2] Missing argument 1 for access(), called in D:\wamp\www\smartcms\Cms\Admin\Controller\IndexController.class.php on line 57 and defined D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 42 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 50 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 52 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 54 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 56 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-25T15:28:19+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+NOTIC: [2] Missing argument 1 for access(), called in D:\wamp\www\smartcms\Cms\Admin\Controller\IndexController.class.php on line 92 and defined D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 42 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 50 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 52 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 54 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 56 行.
+SQL: SHOW COLUMNS FROM `smart_role` [ RunTime:0.0040s ]
+SQL: SELECT `name` FROM `smart_role` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8192] mysql_get_server_info(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\smartcms\Cms\Admin\Controller\IndexController.class.php 第 110 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-25T15:28:19+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+NOTIC: [2] Missing argument 1 for access(), called in D:\wamp\www\smartcms\Cms\Admin\Controller\IndexController.class.php on line 14 and defined D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 42 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 50 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 52 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 54 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 56 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-25T15:28:19+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+NOTIC: [2] Missing argument 1 for access(), called in D:\wamp\www\smartcms\Cms\Admin\Controller\IndexController.class.php on line 28 and defined D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 42 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 50 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 52 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 54 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 56 行.
+NOTIC: [8] Undefined variable: data D:\wamp\www\smartcms\Cms\Admin\Controller\IndexController.class.php 第 38 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-25T15:28:19+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/sidebar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+NOTIC: [2] Missing argument 1 for access(), called in D:\wamp\www\smartcms\Cms\Admin\Controller\IndexController.class.php on line 57 and defined D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 42 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 50 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 52 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 54 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 56 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-25T15:28:19+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+NOTIC: [2] Missing argument 1 for access(), called in D:\wamp\www\smartcms\Cms\Admin\Controller\IndexController.class.php on line 92 and defined D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 42 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 50 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 52 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 54 行.
+NOTIC: [8] Undefined variable: fm D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 56 行.
+SQL: SHOW COLUMNS FROM `smart_role` [ RunTime:0.0040s ]
+SQL: SELECT `name` FROM `smart_role` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8192] mysql_get_server_info(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\smartcms\Cms\Admin\Controller\IndexController.class.php 第 110 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-25T15:33:47+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+NOTIC: [2] Missing argument 1 for access(), called in D:\wamp\www\smartcms\Cms\Admin\Controller\IndexController.class.php on line 14 and defined D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 42 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-25T15:33:47+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/top.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+NOTIC: [2] Missing argument 1 for access(), called in D:\wamp\www\smartcms\Cms\Admin\Controller\IndexController.class.php on line 28 and defined D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 42 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-25T15:33:47+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/sidebar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+NOTIC: [2] Missing argument 1 for access(), called in D:\wamp\www\smartcms\Cms\Admin\Controller\IndexController.class.php on line 63 and defined D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 42 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-25T15:33:47+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+NOTIC: [2] Missing argument 1 for access(), called in D:\wamp\www\smartcms\Cms\Admin\Controller\IndexController.class.php on line 104 and defined D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 42 行.
+SQL: SHOW COLUMNS FROM `smart_role` [ RunTime:0.0040s ]
+SQL: SELECT `name` FROM `smart_role` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8192] mysql_get_server_info(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\smartcms\Cms\Admin\Controller\IndexController.class.php 第 122 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-25T15:33:49+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/column.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `smart_column_class` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `smart_column` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `smart_column`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-25T15:33:49+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/role.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `smart_permission` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `smart_role` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `smart_role`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=3 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-25T15:33:50+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/admin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `smart_admin` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `smart_role` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `smart_admin` WHERE ( id!=0 )  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `smart_role` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `smart_role` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `smart_role` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `smart_role` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `smart_role` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `smart_role` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-25T15:33:50+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+NOTIC: [2] Missing argument 1 for access(), called in D:\wamp\www\smartcms\Cms\Admin\Controller\IndexController.class.php on line 104 and defined D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 42 行.
+SQL: SHOW COLUMNS FROM `smart_role` [ RunTime:0.0040s ]
+SQL: SELECT `name` FROM `smart_role` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8192] mysql_get_server_info(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\smartcms\Cms\Admin\Controller\IndexController.class.php 第 122 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-25T15:33:51+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/admin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `smart_admin` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `smart_role` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `smart_admin` WHERE ( id!=0 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `smart_role` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `smart_role` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `smart_role` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `smart_role` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `smart_role` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `smart_role` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-25T15:33:51+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/role.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `smart_permission` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `smart_role` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `smart_role`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=4 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=3 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=3 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-25T15:33:52+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/column.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `smart_column_class` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `smart_column` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `smart_column`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `smart_column_class` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-25T15:33:53+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/admin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `smart_admin` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `smart_role` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `smart_admin` WHERE ( id!=0 )  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `smart_role` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `smart_role` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `smart_role` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `smart_role` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `smart_role` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `smart_role` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-25T15:33:53+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+NOTIC: [2] Missing argument 1 for access(), called in D:\wamp\www\smartcms\Cms\Admin\Controller\IndexController.class.php on line 104 and defined D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 42 行.
+SQL: SHOW COLUMNS FROM `smart_role` [ RunTime:0.0030s ]
+SQL: SELECT `name` FROM `smart_role` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8192] mysql_get_server_info(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\smartcms\Cms\Admin\Controller\IndexController.class.php 第 122 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-25T15:33:54+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/role.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `smart_permission` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `smart_role` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `smart_role`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `smart_permission` WHERE ( id=3 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-11-25T15:33:55+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/admin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `smart_admin` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `smart_role` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `smart_admin` WHERE ( id!=0 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `smart_role` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `smart_role` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `smart_role` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `smart_role` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `id`,`name` FROM `smart_role` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `smart_role` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-25T15:33:55+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+NOTIC: [2] Missing argument 1 for access(), called in D:\wamp\www\smartcms\Cms\Admin\Controller\IndexController.class.php on line 104 and defined D:\wamp\www\smartcms\Cms\Admin\Common\function.php 第 42 行.
+SQL: SHOW COLUMNS FROM `smart_role` [ RunTime:0.0150s ]
+SQL: SELECT `name` FROM `smart_role` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8192] mysql_get_server_info(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\smartcms\Cms\Admin\Controller\IndexController.class.php 第 122 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-25T15:33:56+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/admin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `smart_admin` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `smart_role` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `smart_admin` WHERE ( id!=0 )  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `smart_role` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `id`,`name` FROM `smart_role` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `smart_role` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `smart_role` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `smart_role` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `smart_role` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-25T15:33:58+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/addAdmin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `smart_role` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`name` FROM `smart_role`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-25T15:33:58+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Index/admin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `smart_admin` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `smart_role` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `smart_admin` WHERE ( id!=0 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `smart_role` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `smart_role` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `smart_role` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `smart_role` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name` FROM `smart_role` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name` FROM `smart_role` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-25T15:34:00+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Content/sidebar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `smart_column` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`name`,`parentid`,`class`,`sort` FROM `smart_column`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-25T15:34:01+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Content/news.html?id=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `smart_column` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `smart_column` WHERE ( id=14 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `smart_content` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `smart_content` WHERE ( columnid=14 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `smart_content` WHERE ( columnid=14 ) ORDER BY addtime desc LIMIT 0,5   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-25T15:34:02+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Content/news.html?id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `smart_column` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `smart_column` WHERE ( id=6 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `smart_content` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `smart_content` WHERE ( columnid=6 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `smart_content` WHERE ( columnid=6 ) ORDER BY addtime desc LIMIT 0,5   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-25T15:34:03+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Content/addNews.html?id=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `smart_column` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `smart_column` WHERE ( id=6 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-11-25T15:34:04+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Content/ueditup?action=config&&noCache=1448436844173
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-25T15:34:13+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Content/page.html?id=25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `smart_content` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `smart_column` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `smart_column` WHERE ( id=25 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `smart_content` WHERE ( columnid=25 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-25T15:34:13+08:00 ] 127.0.0.1 /smartcms/index.php/Admin/Content/ueditup?action=config&&noCache=1448436853866
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\smartcms\Think\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

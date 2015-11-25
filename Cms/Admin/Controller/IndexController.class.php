@@ -31,8 +31,14 @@ class IndexController extends Controller {
         }
         
         $permission = $_SESSION['login']['role']['permission'];
-        if(contants($permission,'4')){
+        if($_SESSION['login']['id']=='0'){
             $data['content'] = 1;
+        }else{
+            if(contants($permission,'4')){
+                $data['content'] = 1;
+            }else{
+                $data['content'] = 0;
+            }
         }
         
         $this->assign('data',$data);
@@ -62,22 +68,28 @@ class IndexController extends Controller {
         $permission = $_SESSION['login']['role']['permission'];
 //         var_dump($permission);
 //         var_dump(contants($permission,'3'));
-        if(contants($permission,'1')){
+        if($_SESSION['login']['id']=='0'){
             $data['admin'] = 1;
-        }else{
-            $data['admin'] = 0;
-        }
-            
-        if(contants($permission,'2')){
             $data['role'] = 1;
-        }else{
-            $data['role'] = 0;
-        }
-            
-        if(contants($permission,'3')){
             $data['column'] = 1;
         }else{
-            $data['column'] = 0;
+            if(contants($permission,'1')){
+                $data['admin'] = 1;
+            }else{
+                $data['admin'] = 0;
+            }
+                
+            if(contants($permission,'2')){
+                $data['role'] = 1;
+            }else{
+                $data['role'] = 0;
+            }
+                
+            if(contants($permission,'3')){
+                $data['column'] = 1;
+            }else{
+                $data['column'] = 0;
+            }
         }
         
         $this->assign("data",$data);
