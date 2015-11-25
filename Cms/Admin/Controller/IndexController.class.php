@@ -21,6 +21,8 @@ class IndexController extends Controller {
     
     /**
      * 后台首页top
+     * 
+     * 4   内容                  content
      * */
     public function top(){
         if(!access()){
@@ -28,6 +30,12 @@ class IndexController extends Controller {
             return;
         }
         
+        $permission = $_SESSION['login']['role']['permission'];
+        if(contants($permission,'4')){
+            $data['content'] = 1;
+        }
+        
+        $this->assign('data',$data);
         $this->assign('name',$_SESSION['login']['username']);
         
         
@@ -38,12 +46,42 @@ class IndexController extends Controller {
     
     /**
      * 后台首页sidebar
+     * 
+     *  1   管理员管理       adminmanage
+
+        2   角色管理            rolemanage
+
+        3   栏目管理           columnmanage
      * */
     public function sidebar(){
         if(!access()){
             $this->error(C('access_error'));
             return;
         }
+        
+        $permission = $_SESSION['login']['role']['permission'];
+//         var_dump($permission);
+//         var_dump(contants($permission,'3'));
+        if(contants($permission,'1')){
+            $data['admin'] = 1;
+        }else{
+            $data['admin'] = 0;
+        }
+            
+        if(contants($permission,'2')){
+            $data['role'] = 1;
+        }else{
+            $data['role'] = 0;
+        }
+            
+        if(contants($permission,'3')){
+            $data['column'] = 1;
+        }else{
+            $data['column'] = 0;
+        }
+        
+        $this->assign("data",$data);
+        
         $this->display();
     }
     
@@ -64,7 +102,7 @@ class IndexController extends Controller {
         if($_SESSION['login']['id']==0){
             $data['role'] = "超级管理员";
         }
-
+        
         
         $data['php_os'] = PHP_OS;
         $data['remote_addr'] = $_SERVER['REMOTE_ADDR'];
@@ -80,10 +118,71 @@ class IndexController extends Controller {
     }
     
     /**
+     * 修改密码
+     * */
+    public function modPass(){
+        if(!access()){
+            $this->error(C('access_error'));
+            return;
+        }
+        
+        
+        $this->display();
+        
+    }
+    
+    /**
+     * 修改密码
+     * post提交
+     * */
+    public function modPassPost(){
+        if(!access()){
+            $this->error(C('access_error'));
+            return;
+        }
+        
+        if(empty($_POST['oldpassword'])){
+            $this->error('原密码不得为空');
+            return;
+        }
+        if(empty($_POST['newpassword'])){
+            $this->error('新密码不得为空');
+            return;
+        }
+        
+        //验证用户名和密码
+        $name = $_SESSION['login']['username'];
+        $pass = $_POST['oldpassword'];
+        $Admin = D('Admin');
+        $admin = $Admin->where("username='".$name."' AND password='".md5($pass)."'")->find();
+        if($admin){
+            $admin['password'] = $_POST['newpassword'];
+//             var_dump($admin);
+            if($Admin->create($admin)){
+                if($Admin->save()){
+                    $this->success('修改密码成功',U('Index/main'));
+                }else{
+                    $this->error('修改密码失败');
+                }
+            }else{
+                $this->error($Admin->getError());
+            }
+        }else{
+            $this->error('原密码不正确');
+        }
+        
+    }
+    
+    
+    /**
      * 管理员管理
      * */
     public function admin(){
         header("Content-type:text/html;charset=utf-8");
+        if(!access(C('FM_admin'))){
+            $this->error(C('access_error'));
+            return;
+        }
         $Admin = M('Admin');
         $Role = M('Role');
         $admins = $Admin->where('id!=0')->select();
@@ -105,6 +204,10 @@ class IndexController extends Controller {
      * 新增管理员
      * */
     public function addAdmin(){
+        if(!access(C('FM_admin'))){
+            $this->error(C('access_error'));
+            return;
+        }
         $Role = M('Role');
         $roles = $Role->getField("id,name");
         $this->assign('roles',$roles);
@@ -115,6 +218,10 @@ class IndexController extends Controller {
      * 修改管理员
      * */
     public function modAdmin(){
+        if(!access(C('FM_admin'))){
+            $this->error(C('access_error'));
+            return;
+        }
         $id = $_GET['id'];
         $Admin = M('Admin');
         $Role = M('Role');
@@ -145,6 +252,10 @@ class IndexController extends Controller {
      * */
     public function modAdminPost(){
         header("Content-type:text/html;charset=utf-8");
+        if(!access(C('FM_admin'))){
+            $this->error(C('access_error'));
+            return;
+        }
         $Admin = D('Admin');
         
         if($Admin->create()){
@@ -172,6 +283,10 @@ class IndexController extends Controller {
      * 删除管理员
      * */
     public function delAdmin(){
+        if(!access(C('FM_admin'))){
+            $this->error(C('access_error'));
+            return;
+        }
         $id =  $_GET['id'];
         //        echo $id;
         $Admin = M('Admin');
@@ -190,6 +305,10 @@ class IndexController extends Controller {
      * */
     public function addAdminPost(){
         header("Content-type:text/html;charset=utf-8");
+        if(!access(C('FM_admin'))){
+            $this->error(C('access_error'));
+            return;
+        }
 //         var_dump($_POST);
         $Admin = D('Admin');//管理员表
         $data['username'] = $_POST['username'];
@@ -215,6 +334,10 @@ class IndexController extends Controller {
      * */
     public function role(){
         header("Content-type:text/html;charset=utf-8");
+        if(!access(C('FM_role'))){
+            $this->error(C('access_error'));
+            return;
+        }
         $Permission = M('Permission');//权限表
         $Role = M('Role');//角色表
         $data = $Role->select();
@@ -242,7 +365,10 @@ class IndexController extends Controller {
      * 新增角色
      * */
     public function addRole(){
-        
+        if(!access(C('FM_role'))){
+            $this->error(C('access_error'));
+            return;
+        }
         $Permission = M('Permission');
         $this->assign('permission',$Permission->select());
         
@@ -253,6 +379,10 @@ class IndexController extends Controller {
      * 修改角色
      * */
     public function modRole(){
+        if(!access(C('FM_role'))){
+            $this->error(C('access_error'));
+            return;
+        }
         $id =  $_GET['id'];
         $Role = M('Role');//角色表
         $Permission = M('Permission');//权限表
@@ -291,6 +421,10 @@ class IndexController extends Controller {
      * 删除角色
      * */
     public function delRole(){
+        if(!access(C('FM_role'))){
+            $this->error(C('access_error'));
+            return;
+        }
        $id =  $_GET['id'];
 //        echo $id;
        $Role = M('Role');
@@ -310,6 +444,10 @@ class IndexController extends Controller {
      * */
     public function addRolePost(){
         header("Content-type:text/html;charset=utf-8");
+        if(!access(C('FM_role'))){
+            $this->error(C('access_error'));
+            return;
+        }
         $Permission = M('Permission');
         $enname = $Permission->getField('enname',true);
         $strPermissions = '';
@@ -344,6 +482,10 @@ class IndexController extends Controller {
      * */
     public function modRolePost(){
         header("Content-type:text/html;charset=utf-8");
+        if(!access(C('FM_role'))){
+            $this->error(C('access_error'));
+            return;
+        }
         $Permission = M('Permission');
         $enname = $Permission->getField('enname',true);
         $strPermissions = '';
@@ -383,6 +525,10 @@ class IndexController extends Controller {
      * */
     public function column(){
         header("Content-type:text/html;charset=utf-8");
+        if(!access(C('FM_column'))){
+            $this->error(C('access_error'));
+            return;
+        }
         $ColumnClass = M('ColumnClass');
         $Column = M('Column');
         $columns = $Column->select();
@@ -405,6 +551,10 @@ class IndexController extends Controller {
      * 新增栏目
      * */
     public function addColumn(){
+        if(!access(C('FM_column'))){
+            $this->error(C('access_error'));
+            return;
+        }
         $ColumnClass = M('ColumnClass');
         $Column = M('Column');
         
@@ -426,6 +576,10 @@ class IndexController extends Controller {
      * 接收post
      * */
     public function addColumnPost(){
+        if(!access(C('FM_column'))){
+            $this->error(C('access_error'));
+            return;
+        }
         $Column = D('Column');
         
         if($Column->create()){
@@ -444,6 +598,10 @@ class IndexController extends Controller {
      * 删除栏目
      * */
     public function delColumn(){
+        if(!access(C('FM_column'))){
+            $this->error(C('access_error'));
+            return;
+        }
         $id = $_GET['id'];
         $Column = M('Column');
         if($Column->where('id='.$id)->delete()){
@@ -458,6 +616,10 @@ class IndexController extends Controller {
      * 修改栏目
      * */
     public function modColumn(){
+        if(!access(C('FM_column'))){
+            $this->error(C('access_error'));
+            return;
+        }
         $id = $_GET['id'];
         $ColumnClass = M('ColumnClass');
         $Column = M('Column');
@@ -499,6 +661,10 @@ class IndexController extends Controller {
      * 接收post
      * */
     public function modColumnPost(){
+        if(!access(C('FM_column'))){
+            $this->error(C('access_error'));
+            return;
+        }
         $Column = D('Column');
         if($Column->create()){
             if($Column->save()){
