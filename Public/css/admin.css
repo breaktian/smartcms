@@ -40,9 +40,10 @@ ul {
 .sidebar{background:#F7FBFC;background:url(../images/sidebar_right.png) right repeat-y;}
 .sidebar dl{width:80%;margin-top:25px;margin-left:auto;margin-right:auto;}
 .sidebar dl dt{height:30px;line-height:30px;border-bottom:1px solid #cccccc;font-size:16px;color:#369;font-weight:bold;}
-.sidebar dl dd{height:20px;line-height:20px;font-size:13px;padding:8px 0 0 20px;background:url(../images/d.jpg) no-repeat 0 10px;}
-.sidebar dl dd a{text-decoration:none;color:#333333;}
-.sidebar dl dd a:hover{text-decoration:underline;color:#333333;}
+.sidebar dl dd{font-size:14px;}
+.sidebar dl dd a{display:block;text-decoration:none;color:#333333;height:35px;line-height:35px;padding-left:10px;border-bottom: 1px solid #F2F2F2;}
+.sidebar dl dd a:hover{text-decoration:none;color:#333333;background:#F2F2F2;}
+.sidebar dl dd a span{color:#CCCCCC}
 
 /*这里是sidebar_content页面*/
 .sidebar_content{background:#F7FBFC;background:url(../images/sidebar_right.png) right repeat-y;}

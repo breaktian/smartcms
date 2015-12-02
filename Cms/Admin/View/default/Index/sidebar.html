@@ -4,19 +4,22 @@
 <meta charset="UTF-8">
 <title>sidebar</title>
 <link rel="stylesheet" type="text/css" href="__PUBLIC__/css/admin.css" />
+<script type="text/javascript" src="__PUBLIC__/js/jquery-1.4a2.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/js/sidebar_index_click.js"></script>
+
 </head>
 <body class="sidebar">
 <dl>
 	<dt>管理首页</dt>
-	<dd><a href="<{:U('Index/main')}>" target="main">后台首页</a></dd>
+	<dd onclick="sidebar_index_click($(this).index())" class="sidebar-index"><a href="<{:U('Index/main')}>" target="main"><span>></span> 后台首页</a></dd>
 	<if condition="$data['admin'] eq 1">
-	<dd><a href="<{:U('Index/admin')}>" target="main">管理员管理</a></dd>
+	<dd onclick="sidebar_index_click($(this).index())" class="sidebar-index"><a href="<{:U('Index/admin')}>" target="main"><span>></span> 管理员管理</a></dd>
 	</if>
 	<if condition="$data['role'] eq 1">
-	<dd><a href="<{:U('Index/role')}>" target="main">角色管理</a></dd>
+	<dd onclick="sidebar_index_click($(this).index())" class="sidebar-index"><a href="<{:U('Index/role')}>" target="main"><span>></span> 角色管理</a></dd>
 	</if>
 	<if condition="$data['column'] eq 1">
-	<dd><a href="<{:U('Index/column')}>" target="main">栏目管理</a></dd>
+	<dd onclick="sidebar_index_click($(this).index())" class="sidebar-index"><a href="<{:U('Index/column')}>" target="main"><span>></span> 栏目管理</a></dd>
 	</if>
 
 </dl>

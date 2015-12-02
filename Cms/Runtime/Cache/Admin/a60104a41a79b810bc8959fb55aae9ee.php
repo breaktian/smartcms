@@ -25,7 +25,8 @@
 		<dt>开发团队</dt>
 		<dd>UI设计：张二狗</dd>
 		<dd>主程序：breaktian</dd>
-		<dd>公司：<a href="http://www.hbounty.com" class="a" target="_blank">赏金网络科技有限公司</a></dd>
+		<dd>公司：<a href="http://www.hbounty.com" class="a" target="_blank">赏金网络科技工作室</a></dd>
+		<dd>联系方式：1124920783(QQ)、15010259907(电话)</dd>
 	</dl>	
 
 </body>

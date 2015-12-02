@@ -18,7 +18,7 @@
 		<dd><label>父级栏目：</label>
 			<select name="parentid">
 				<option value ="0">- -</option>
-				<?php if(is_array($columns)): $k = 0; $__LIST__ = $columns;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($k % 2 );++$k;?><option value ="<?php echo ($vo["id"]); ?>"><?php $__FOR_START_1530__=0;$__FOR_END_1530__=$vo["count"];for($i=$__FOR_START_1530__;$i < $__FOR_END_1530__;$i+=1){ ?>&nbsp;&nbsp;&nbsp;&nbsp;<?php } echo ($vo["name"]); ?></option><?php endforeach; endif; else: echo "" ;endif; ?>
+				<?php if(is_array($columns)): $k = 0; $__LIST__ = $columns;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($k % 2 );++$k;?><option value ="<?php echo ($vo["id"]); ?>"><?php $__FOR_START_27909__=0;$__FOR_END_27909__=$vo["count"];for($i=$__FOR_START_27909__;$i < $__FOR_END_27909__;$i+=1){ ?>&nbsp;&nbsp;&nbsp;&nbsp;<?php } echo ($vo["name"]); ?></option><?php endforeach; endif; else: echo "" ;endif; ?>
 			</select>
 		</dd>
 		<dd><label>栏目种类：</label>
